@@ -5,3 +5,7 @@ Find new things on your network using Zeek. This is an extension of the Zeek New
 * New Domains queried in the last n Hours
 * New orig_h -> resp_h pairs
 * New HTTP User-Agents 
+* New devices (via DHCP)
+
+## Notice Log Additions
+* Adds the dhcp hostname of the orig_h in notice log entries (if it is found). This feature doesn't persist across reboots and is still a WIP
